@@ -10,16 +10,16 @@ const itemNames: string[] = new Array(numItems);
 const itemPrices: number[] = new Array(numItems);
 
 // Example inputs for demonstration (replace with actual prompts if using an input system)
-itemNames[0] = "diapers"; itemPrices[0] = 50;
-itemNames[1] = "milk"; itemPrices[1] = 30;
-itemNames[2] = "cheese"; itemPrices[2] = 25;
-itemNames[3] = "steak"; itemPrices[3] = 60;
-itemNames[4] = "rice"; itemPrices[4] = 40;
-itemNames[5] = "ghee"; itemPrices[5] = 35;
-itemNames[6] = "green peppers"; itemPrices[6] = 15;
-itemNames[7] = "salmon"; itemPrices[7] = 55;
-itemNames[8] = "pasta"; itemPrices[8] = 18;
-itemNames[9] = "onions"; itemPrices[9] = 10;
+itemNames[0] = "diapers"; itemPrices[0] = 45.00;
+itemNames[1] = "milk"; itemPrices[1] = 35.00;
+itemNames[2] = "cheese"; itemPrices[2] = 50.00;
+itemNames[3] = "steak"; itemPrices[3] = 60.00;
+itemNames[4] = "rice"; itemPrices[4] = 30.00;
+itemNames[5] = "ghee"; itemPrices[5] = 28.00;
+itemNames[6] = "green peppers"; itemPrices[6] = 25.00;
+itemNames[7] = "salmon"; itemPrices[7] = 40.00;
+itemNames[8] = "pasta"; itemPrices[8] = 25.45;
+itemNames[9] = "onions"; itemPrices[9] = 60.00;
 
 // Calculate subtotal
 let subtotal: number = 0;
