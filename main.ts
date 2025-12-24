@@ -5,7 +5,7 @@
  * Date: 2025-12-23
  */
 
-let numItems: number = 10; // Example: 10 items
+const numItems: number = 10; // Example: 10 items
 const itemNames: string[] = new Array(numItems);
 const itemPrices: number[] = new Array(numItems);
 
@@ -34,13 +34,13 @@ if (subtotal > 350) {
 }
 
 // Subtotal after discount
-let subtotalAfterDiscount: number = subtotal - discount;
+const subtotalAfterDiscount: number = subtotal - discount;
 
 // Calculate HST
-let hst: number = subtotalAfterDiscount * 0.13;
+const hst: number = subtotalAfterDiscount * 0.13;
 
 // Calculate total
-let total: number = subtotalAfterDiscount + hst;
+const total: number = subtotalAfterDiscount + hst;
 
 // Output
 console.log(`Your shopping cart includes: ${itemNames.join(", ")}`);
